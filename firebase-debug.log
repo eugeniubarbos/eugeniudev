@@ -1,0 +1,61 @@
+[debug] [2022-08-31T01:12:59.972Z] ----------------------------------------------------------------------
+[debug] [2022-08-31T01:12:59.974Z] Command:       /usr/local/bin/firebase /Users/eugeniu/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2022-08-31T01:12:59.975Z] CLI Version:   11.8.0
+[debug] [2022-08-31T01:12:59.975Z] Platform:      darwin
+[debug] [2022-08-31T01:12:59.975Z] Node Version:  v16.16.0
+[debug] [2022-08-31T01:12:59.976Z] Time:          Tue Aug 30 2022 21:12:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-08-31T01:12:59.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-31T01:12:59.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-31T01:12:59.994Z] > authorizing via signed-in user (eugenbarbos@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/eugeniu/Desktop/eugeniu-website/new-project/my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-31T01:13:18.886Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-31T01:13:19.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-31T01:13:19.427Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project eugeniudev-b71c2 (eugeniudev) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-31T01:14:15.141Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-31T01:14:15.298Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-31T01:14:15.299Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] ✔  Wrote eugeniudev/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/eugeniu/Desktop/eugeniu-website/new-project/my-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=610118790&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-31T01:14:38.229Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-31T01:14:38.230Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-31T01:14:38.518Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-31T01:14:38.520Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-31T01:14:38.537Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-31T01:14:38.762Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-31T01:14:38.762Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"peewwie","id":93018127,"node_id":"U_kgDOBYtYDw","avatar_url":"https://avatars.githubusercontent.com/u/93018127?v=4","gravatar_id":"","url":"https://api.github.com/users/peewwie","html_url":"https://github.com/peewwie","followers_url":"https://api.github.com/users/peewwie/followers","following_url":"https://api.github.com/users/peewwie/following{/other_user}","gists_url":"https://api.github.com/users/peewwie/gists{/gist_id}","starred_url":"https://api.github.com/users/peewwie/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/peewwie/subscriptions","organizations_url":"https://api.github.com/users/peewwie/orgs","repos_url":"https://api.github.com/users/peewwie/repos","events_url":"https://api.github.com/users/peewwie/events{/privacy}","received_events_url":"https://api.github.com/users/peewwie/received_events","type":"User","site_admin":false,"name":"Eugeniu Barbos","company":"NioyaTech LLC","blog":"https://www.nioyatech.com/","location":"Tysons Corner","email":null,"hireable":null,"bio":"Front End Developer \r\n","twitter_username":null,"public_repos":21,"public_gists":0,"followers":0,"following":1,"created_at":"2021-10-23T00:41:13Z","updated_at":"2022-08-10T00:34:53Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":15873,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as peewwie 
+[info] 

@@ -1,0 +1,36 @@
+.secondpart{
+ 
+  display: flex;
+    flex-direction: row;
+}
+.firstdiv2{
+    width: 50%;
+    padding: 70px 40px 70px 0;
+
+}
+.seconddiv2{
+    width: 50%;
+    padding: 70px 40px 70px 0;
+    
+}
+.bisocial{
+    
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid ;
+    border-radius: 50px;
+}
+.seconddiv2 i:hover{
+    background-color:rgb(127, 116, 185) ;
+}
+@media only screen and (max-width: 1024px){
+    .secondpart{  
+        flex-direction: column;
+    }
+    .firstdiv2{
+        width: 100%;
+    }
+    .seconddiv2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.part1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 130px;
+}
+.firstdiv1{
+    height: 615px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 70px;
+   padding-top: 120px;
+}
+.seconddiv1{
+    width: 50%;
+   
+    height: 615px;
+}
+.imgportrait{
+    width: 450px;
+    height: 600px;
+}
+.firstdiv1 p{
+ padding-top: 50px;
+ line-height: 2rem;
+}
+.firstdiv1 button{
+    background-color:rgb(82,67,172);
+    border-radius:5px;
+    padding: 10px 20px;
+  -webkit-animation: bounce .1s infinite alternate;
+  -moz-animation: bounce .9s infinite alternate;
+  animation: bounce .8s infinite alternate;
+  border: none;
+  width: 200px;
+  margin-top: 30px;
+}
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.2); }
+}
+@keyframes bounce {
+  to { transform: scale(1.2); 
+}
+}
+.seconddiv1{
+    text-align: center;
+}
+@media only screen and (max-width: 1024px){
+    .part1{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstdiv1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+*{
+    color: white;
+    
+}
+.home1{
+    background-color:rgb(16,23,42);
+}
+.dropDownmenu{
+    position: absolute;
+    right: 25px;
+    top: 70px;
+    width: 200px;
+    border: 1px solid rgb(100,116,139);
+    border-radius: 5%;
+    padding: 20px 50px 20px 20px;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    
+}
+.brand{
+    color:rgb(129,140,248)!important ;
+    font-size: 1.2rem;
+}
+.cont{
+    position: relative;
+    
+}
+.xbutton{
+    background-color: rgb(14,23,42);
+    padding: 10px;
+    border: none;
+    
+}
+.me-right{
+    gap: 30px;
+
+}
+.navlink:hover{
+    color:rgb(129,140,248)!important;
+    text-decoration: underline;
+
+}
+.navbardiv{
+    height: 80px;
+    /* position: fixed; */
+    color: white;
+    background-color:rgb(16,23,42);
+    
+}
+.navlink{
+    font-size: 1.3rem!important;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.binav{
+    font-size: 3rem;
+}
